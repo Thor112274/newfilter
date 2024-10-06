@@ -136,8 +136,21 @@ async def refercall(bot, query):
     reply_markup = InlineKeyboardMarkup(btn)
     await bot.send_photo(
         chat_id=query.message.chat.id,
-        photo="https://graph.org/file/1a2e64aee3d4d10edd930.jpg",
-        caption=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join, you will get 10 referral points and after 100 points you will get 1 month premium subscription.',
+        photo="https://graph.org/file/a319f6b9ce3b993c6e22f.jpg",
+        caption=f'<b>──「<a href=https://t.me/MOVIE_LOVERZZ> DONATE & SUPPORT US </a> 」──
+
+𝖧𝗂 ɢᴜʏꜱ.
+𝖮𝗎𝗋 𝖡𝗈𝗍 𝖨𝗌 𝖦𝗂𝗏𝗂𝗇𝗀 𝖣𝗂𝗋𝖾𝖼𝗍 𝖥𝗂𝗅𝖾𝗌 𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖲𝗁𝗈𝗋𝗍𝗇𝖾𝗋𝗌, 𝖴𝗇𝗅𝗂𝗄𝖾 𝖮𝗍𝗁𝖾𝗋 𝖡𝗈𝗍𝗌. 𝖲𝗈 𝖨𝖿 𝖸𝗈𝗎 𝖫𝗂𝗄𝖾 𝖮𝗎𝗋 𝖥𝗋𝖾𝖾 𝖲𝖾𝗋𝗏𝗂𝖼𝖾 𝖯𝗅𝖾𝖺𝗌𝖾 𝖣𝗈𝗇𝖺𝗍𝖾 𝖴𝗌
+𝖶𝗁𝗂𝖼𝗁 𝖶𝗂𝗅𝗅 𝖡𝖾 𝖱𝖾𝖺𝗅𝗅𝗒 𝖧𝖾𝗅𝗉𝖿𝗎𝗅𝗅 𝖥𝗈𝗋 𝖴𝗌.
+
+𝖠𝗇𝗒 𝖠𝗆𝗈𝗎𝗇𝗍 𝖶𝗈𝗎𝗅𝖽 𝖡𝖾 𝖥𝗂𝗇𝖾 (10, 20, 30, 50, 100...etc) 𝖠𝗌 𝖫𝗈𝗇𝗀 𝖠𝗌 𝖸𝗈𝗎 𝖳𝗁𝗂𝗇𝗄 𝖮𝗎𝗋 𝖡𝗈𝗍 ᴅ𝖾𝗌𝖾𝗋𝗏𝖾𝗌 𝖨𝗍.
+
+ᴠᴇʀᴇ ᴄʜᴀɴɴᴇʟꜱ ʟᴀɢᴀ ꜰɪʟᴇꜱ ᴋɪ ꜱʜᴏʀᴛʟɪɴᴋꜱ ᴀɴᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴꜱ ꜱᴄʜᴇᴍᴇ ɪᴛʜᴇʏ ᴍᴀɴᴀ ᴄʜᴀɴɴᴇʟ ʟᴏ ᴜɴᴅᴀᴅᴜ. ɪɴᴋᴀ ᴍɪ ɪꜱᴛᴀᴍ 
+
+If any one want to donate please Dm to this ID @MLadminbot 👈
+
+  
+𝗧𝗛𝗔𝗡𝗞𝗦 𝗜𝗡 𝗔𝗗𝗩𝗔𝗡𝗖𝗘, 𝗬𝗢𝗨𝗥 𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗜𝗢𝗡𝗦 𝗥𝗘𝗔𝗟𝗟𝗬 𝗛𝗘𝗟𝗣𝗙𝗨𝗟𝗟 𝗙𝗢𝗥 𝗨𝗦🤍.',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
     )
