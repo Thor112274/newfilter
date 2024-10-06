@@ -177,14 +177,14 @@ async def start(client:Client, message):
          #   refData = message.command[1]
          #   if refData and refData.split("-", 1)[0] == "Jisshu":
          #       Fullref = refData.split("-", 1)
-         #       refUserId = int(Fullref[1])
+         #       refUserId = int(Fullref[1]) InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', url=f'https://t.me/'),
          #       await db.update_point(refUserId)
          #       newPoint = await db.get_point(refUserId)
              if AUTH_CHANNEL and await is_req_subscribed(client, message):
                         buttons = [[
                             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨",  url=f'https://t.me/+7hhFYFo61m5hNzU9'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
@@ -213,7 +213,7 @@ async def start(client:Client, message):
         buttons = [[
                             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨", url=f'https://t.me/+7hhFYFo61m5hNzU9'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
@@ -275,7 +275,7 @@ async def start(client:Client, message):
         buttons = [[
             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
-                            InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                            InlineKeyboardButton("✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨", url=f'https://t.me/+7hhFYFo61m5hNzU9'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
