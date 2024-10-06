@@ -194,7 +194,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
-                        m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
+                        m=await message.reply_sticker("CAACAgUAAxkBAAICfGcC6jMkWlz5WP2RlJrqSDk89VinAAIwDgACgAABeFQyFig5uFl9GzYE") 
                         await asyncio.sleep(1)
                         await m.delete()
                         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -223,7 +223,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAICfGcC6jMkWlz5WP2RlJrqSDk89VinAAIwDgACgAABeFQyFig5uFl9GzYE") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
