@@ -107,8 +107,7 @@ User - {}"""
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
    
     IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
-
+<b>
 🍿 Title: {title}
 🎃 Genres: {genres}
 📆 Year: {release_date}
